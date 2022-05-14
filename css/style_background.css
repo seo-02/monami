@@ -656,6 +656,38 @@
   }
 }
 
+#wrap section > .background-con01 > .scroll {
+  position: absolute;
+  right: -30px;
+  bottom: 0px;
+}
+
+#wrap section > .background-con01 > .scroll > span {
+  display: block;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-animation: scrollSpan 2s alternate infinite;
+          animation: scrollSpan 2s alternate infinite;
+}
+
+@-webkit-keyframes scrollSpan {
+  0% {
+    margin-bottom: 5px;
+  }
+  100% {
+    margin-bottom: 20px;
+  }
+}
+
+@keyframes scrollSpan {
+  0% {
+    margin-bottom: 5px;
+  }
+  100% {
+    margin-bottom: 20px;
+  }
+}
+
 #wrap section > .background-con02 {
   position: absolute;
   height: 800px;
