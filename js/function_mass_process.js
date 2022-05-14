@@ -1,4 +1,40 @@
 $(function(){
+    //nav 이벤트
+    const nav = $('.header > .header-con > nav > .gnb > li > a');
+    const aniText = 'navText 1.5s alternate';
+    nav.on('mouseover',function(evt){
+        evt.preventDefault();
+        if($(this).parent().hasClass('red')){
+            $(this).parent().css({
+                animation: 'navRed 1.5s alternate'
+            });
+            $(this).css({
+                animation:aniText
+            });
+        }else if($(this).parent().hasClass('orange')){
+            $(this).parent().css({
+                animation: 'navOrg 1.5s alternate forwards'
+            });
+            $(this).css({
+                animation:'navText 1.5s alternate forwards'
+            });
+        }else if($(this).parent().hasClass('yellow')){
+            $(this).parent().css({
+                animation: 'navYel 1.5s alternate'
+            });
+            $(this).css({
+                animation:aniText
+            });
+        }else if($(this).parent().hasClass('green')){
+            $(this).parent().css({
+                animation: 'navGrn 1.5s alternate'
+            });
+            $(this).css({
+                animation:aniText
+            });
+        }
+    });
+
     let windowW = $(window).width();
     let windowH = $(window).height();
     const section = $('section > .section-con > ul > li');
