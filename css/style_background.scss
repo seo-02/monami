@@ -318,6 +318,20 @@
                     }
                 }
             }//end of .bgi-con
+            >.scroll {
+                position: absolute;
+                right: -30px;
+                bottom: 0px;
+                >span {
+                    display: block;
+                    transform: rotate(90deg);
+                    animation: scrollSpan 2s alternate infinite;
+                }
+                @keyframes scrollSpan {
+                    0% { margin-bottom: 5px;}
+                    100% { margin-bottom: 20px;}
+                }
+            }//end of .scroll
         }//end of .background-con01
         >.background-con02 {
             position: absolute;
