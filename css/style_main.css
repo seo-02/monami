@@ -13,6 +13,12 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 1040px) {
+  #wrap header > .header-con {
+    width: 100%;
+  }
+}
+
 #wrap header > .header-con > .monami-logo {
   display: none;
   position: absolute;
@@ -209,6 +215,12 @@
   height: 700px;
 }
 
+@media screen and (max-width: 1040px) {
+  #wrap section.visual {
+    width: 100%;
+  }
+}
+
 #wrap section.visual > h2 {
   position: absolute;
   top: 120px;
@@ -258,6 +270,12 @@
   text-align: right;
 }
 
+@media screen and (max-width: 1040px) {
+  #wrap section.visual > h2 {
+    left: 70%;
+  }
+}
+
 #wrap section.visual > .visual-con {
   position: absolute;
   right: 0;
@@ -292,6 +310,12 @@
   }
 }
 
+@media screen and (max-width: 1040px) {
+  #wrap section.visual > .visual-con {
+    width: 100%;
+  }
+}
+
 #wrap section.perspective {
   position: relative;
   height: 900px;
@@ -316,6 +340,15 @@
   background: -webkit-gradient(linear, left top, right top, from(#ff3232), color-stop(37%, #ffba30), color-stop(69%, #fbff28), to(#83ff2b));
   background: linear-gradient(to right, #ff3232 0%, #ffba30 37%, #fbff28 69%, #83ff2b 100%);
   border-radius: 5px;
+}
+
+@media screen and (max-width: 1040px) {
+  #wrap section.perspective > .pers-con {
+    width: 100%;
+    right: 0;
+    margin-right: 0;
+    border: 1px solid #000;
+  }
 }
 
 #wrap section.perspective > .pers-con > .pers-img {
