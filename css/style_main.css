@@ -13,7 +13,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   #wrap header > .header-con {
     width: 100%;
   }
@@ -215,7 +215,7 @@
   height: 700px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   #wrap section.visual {
     width: 100%;
   }
@@ -270,7 +270,7 @@
   text-align: right;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   #wrap section.visual > h2 {
     left: 70%;
   }
@@ -310,7 +310,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   #wrap section.visual > .visual-con {
     width: 100%;
   }
@@ -342,7 +342,7 @@
   border-radius: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   #wrap section.perspective > .pers-con {
     width: 100%;
     right: 0;
